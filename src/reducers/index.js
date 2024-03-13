@@ -1,3 +1,4 @@
+import { combineReducers } from 'redux';
 import { ADD_BESTIE } from '../actions';
 import besties_json from '../data/besties.json';
 
@@ -26,4 +27,9 @@ function squad(state = [], action) {
   }
 }
 
-export default besties;
+const rootReducer = combineReducers({
+  besties,
+  squad,
+});
+
+export default rootReducer;
