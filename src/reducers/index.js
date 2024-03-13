@@ -11,4 +11,19 @@ function besties(state = besties_json, action) {
   }
 }
 
+function createBestie(id) {
+  let bestie = besties_json.find((b) => b.id === id);
+  return bestie;
+}
+
+function squad(state = [], action) {
+  switch (action.type) {
+    case ADD_BESTIE:
+      let squad = [...state, createBestie(action.id)];
+      return squad;
+    default:
+      return state;
+  }
+}
+
 export default besties;
