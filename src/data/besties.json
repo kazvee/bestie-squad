@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "name": "Hello Kitty",
+    "cuteness": 10,
+    "friendship": 7,
+    "charm": 9
+  },
+  {
+    "id": 1,
+    "name": "Cinnamoroll",
+    "cuteness": 7,
+    "friendship": 10,
+    "charm": 6
+  },
+  {
+    "id": 2,
+    "name": "Keroppi",
+    "cuteness": 5,
+    "friendship": 9,
+    "charm": 7
+  },
+  {
+    "id": 3,
+    "name": "Hangyodon",
+    "cuteness": 5,
+    "friendship": 6,
+    "charm": 10
+  },
+  {
+    "id": 4,
+    "name": "Gudetama",
+    "cuteness": 10,
+    "friendship": 9,
+    "charm": 7
+  },
+  {
+    "id": 5,
+    "name": "Kuromi",
+    "cuteness": 8,
+    "friendship": 7,
+    "charm": 8
+  },
+  {
+    "id": 6,
+    "name": "Chococat",
+    "cuteness": 9,
+    "friendship": 8,
+    "charm": 6
+  },
+  {
+    "id": 7,
+    "name": "Pompompurin",
+    "cuteness": 5,
+    "friendship": 9,
+    "charm": 7
+  },
+  {
+    "id": 8,
+    "name": "Pochacco",
+    "cuteness": 5,
+    "friendship": 8,
+    "charm": 8
+  },
+  {
+    "id": 9,
+    "name": "Badtz-Maru",
+    "cuteness": 7,
+    "friendship": 8,
+    "charm": 7
+  }
+]
