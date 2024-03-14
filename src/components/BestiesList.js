@@ -1,6 +1,5 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { addBestieById } from '../actions';
 
 class BestiesList extends Component {
@@ -28,8 +27,10 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(dispatch) {
-  return bindActionCreators({ addBestieById }, dispatch);
-}
+// function mapDispatchToProps(dispatch) {
+//   return bindActionCreators({ addBestieById }, dispatch);
+// }
+// Can simplify code and improve readability by directly passing the action creator as an object in the second argument of connect()
 
-export default connect(mapStateToProps, mapDispatchToProps)(BestiesList);
+// export default connect(mapStateToProps, mapDispatchToProps)(BestiesList);
+export default connect(mapStateToProps, { addBestieById })(BestiesList);
