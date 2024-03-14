@@ -48,6 +48,13 @@ const Footer = () => {
         <a href='https://icons8.com/icon/80705/add' rel='nofollow'>
           Add
         </a>{' '}
+        &{' '}
+        <a
+          href='https://icons8.com/icon/5mPDN05hVihb/sylvanian-families'
+          rel='nofollow'
+        >
+          Squad
+        </a>{' '}
         icons by{' '}
         <a href='https://icons8.com/' rel='nofollow'>
           Icons8
