@@ -42,9 +42,9 @@ body {
 .footer a {
   text-decoration: none;
   font-weight: bold;
-  color: deeppink;
+  color: darkviolet;
 }
 
 .footer a:hover {
-  color: darkviolet;
+  color: darkmagenta;
 }
