@@ -7,6 +7,11 @@ class BestiesList extends Component {
     return (
       <div>
         <h3>Besties</h3>
+        <ul>
+          {this.props.besties.map((bestie) => (
+            <li key={bestie.id}>{bestie.name}</li>
+          ))}
+        </ul>
       </div>
     );
   }
