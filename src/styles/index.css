@@ -11,6 +11,16 @@ body {
   padding: 0 5% 5%;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container h1 {
+  margin-right: 20px;
+}
+
 .list-group-item {
   display: flex;
   align-items: center;

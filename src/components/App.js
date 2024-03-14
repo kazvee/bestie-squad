@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <div>
+        <div className='header-container'>
           <h1>Bestie Squad</h1>
           <img
             className='header-image'
