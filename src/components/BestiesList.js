@@ -11,7 +11,10 @@ class BestiesList extends Component {
         <h3>Besties</h3>
         <ul>
           {this.props.besties.map((bestie) => (
-            <li key={bestie.id}>{bestie.name}</li>
+            <li key={bestie.id}>
+              <div>{bestie.name}</div>
+              <div onClick={() => this.props.addBestieById(bestie.id)}>➕</div>
+            </li>
           ))}
         </ul>
       </div>
