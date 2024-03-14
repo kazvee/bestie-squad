@@ -10,12 +10,23 @@ class SquadStats extends Component {
     return cuteness;
   }
 
+  friendship() {
+    let friendship = 0;
+    this.props.squad.forEach((squaddie) => {
+      friendship += squaddie.friendship;
+    });
+    return friendship;
+  }
+
   render() {
     return (
       <div>
         <h2>Squad Stats</h2>
         <ul>
           <li className='list-group-item'>Total Cuteness: {this.cuteness()}</li>
+          <li className='list-group-item'>
+            Total Friendship: {this.friendship()}
+          </li>
         </ul>
       </div>
     );
