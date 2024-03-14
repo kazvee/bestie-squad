@@ -3,6 +3,7 @@ import '../styles/index.css';
 import BestiesList from './BestiesList';
 import Footer from './Footer';
 import SquadList from './SquadList';
+import SquadStats from './SquadStats';
 
 class App extends Component {
   render() {
@@ -18,11 +19,14 @@ class App extends Component {
             alt='bestie squad logo'
           />
         </div>
-        <div className='col-md-6'>
+        <div className='col-md-4'>
           <BestiesList />
         </div>
-        <div className='col-md-6'>
+        <div className='col-md-4'>
           <SquadList />
+        </div>
+        <div className='col-md-4'>
+          <SquadStats />
         </div>
         <Footer />
       </div>
