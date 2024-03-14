@@ -1,14 +1,14 @@
 body {
   background-image: url(../assets/background.jpg);
   height: 100%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
-  opacity: 0.83;
+  opacity: 0.8;
 }
 
 .App {
   text-align: center;
-  padding: 5%;
+  padding: 0 5% 5%;
 }
 
 .list-group-item {
@@ -19,4 +19,32 @@ body {
 .right-button {
   cursor: pointer;
   margin-left: auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: first baseline
+}
+
+.footer span {
+  text-align: center;
+  margin: 0 20px 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: deeppink;
+}
+
+.footer a:hover {
+  color: darkviolet;
 }
