@@ -1,6 +1,14 @@
 # Bestie Squad 😻
 
+## Description
+
 Bestie Squad is a Redux application that enables users to create and manage their squad of besties!  
+
+## Live Demo
+
+A demo can be viewed ✨[HERE](https://kazvee.github.io/bestie-squad/)✨
+
+## Purpose
 
 This learning project explores key Redux concepts such as Reducers, Actions, and the Store structure.
 
