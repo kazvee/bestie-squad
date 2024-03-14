@@ -9,8 +9,12 @@ class App extends Component {
     return (
       <div className='App'>
         <h1>Bestie Squad 😻</h1>
-        <BestiesList />
-        <SquadList />
+        <div className='col-md-6'>
+          <BestiesList />
+        </div>
+        <div className='col-md-6'>
+          <SquadList />
+        </div>
         <Footer />
       </div>
     );
