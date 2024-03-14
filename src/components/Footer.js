@@ -8,7 +8,7 @@ const Footer = () => {
             width='24'
             height='24'
             src='https://img.icons8.com/doodle/48/stitched-heart.png'
-            alt='stitched-heart'
+            alt='GitHub repository'
           />
         </a>{' '}
         and:

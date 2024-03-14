@@ -20,7 +20,7 @@ class BestiesList extends Component {
                   width='48'
                   height='48'
                   src='https://img.icons8.com/doodle/48/plus--v1.png'
-                  alt='plus--v1'
+                  alt='add bestie'
                 />
               </div>
             </li>
