@@ -8,8 +8,6 @@ import rootReducer from './reducers';
 const store = configureStore({
   reducer: rootReducer,
 });
-console.log('store.getState()', store.getState());
-store.subscribe(() => console.log('store', store.getState()));
 store.dispatch(addBestieById(4));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
