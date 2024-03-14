@@ -5,7 +5,7 @@ class SquadList extends Component {
   render() {
     return (
       <div>
-        <h3>Your Bestie Squad</h3>
+        <h2>Your Bestie Squad</h2>
         <ul className='list-group'>
           {this.props.squad.map((squaddie) => (
             <li className='list-group-item' key={squaddie.id}>

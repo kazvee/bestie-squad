@@ -7,7 +7,7 @@ class BestiesList extends Component {
     console.log('this.props', this.props);
     return (
       <div>
-        <h3>Besties</h3>
+        <h2>Besties</h2>
         <ul className='list-group'>
           {this.props.besties.map((bestie) => (
             <li className='list-group-item' key={bestie.id}>
