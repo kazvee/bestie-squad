@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
 body {
   background-image: url(../assets/background.jpg);
   height: 100%;
   background-size: auto;
   background-repeat: no-repeat;
   opacity: 0.8;
+  font-family: 'Madimi One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Madimi One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css2?family=Madimi+One&display=swap);
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .App {
@@ -20,11 +39,13 @@ body {
 
 .header-container h1 {
   margin-right: 20px;
+  font-size: 50px;
 }
 
 .list-group-item {
   display: flex;
   align-items: center;
+  font-size: 20px;
 }
 
 .right-button {
@@ -42,7 +63,8 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: first baseline
+  align-items: first baseline;
+  font-size: 16px;
 }
 
 .footer span {
@@ -52,7 +74,6 @@ body {
 
 .footer a {
   text-decoration: none;
-  font-weight: bold;
   color: darkviolet;
 }
 
