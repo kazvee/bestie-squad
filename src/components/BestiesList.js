@@ -16,7 +16,12 @@ class BestiesList extends Component {
                 className='list-item right-button'
                 onClick={() => this.props.addBestieById(bestie.id)}
               >
-                ➕
+                <img
+                  width='48'
+                  height='48'
+                  src='https://img.icons8.com/doodle/48/plus--v1.png'
+                  alt='plus--v1'
+                />
               </div>
             </li>
           ))}
