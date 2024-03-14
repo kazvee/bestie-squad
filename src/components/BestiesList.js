@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { addBestieById } from '../actions';
 
 class BestiesList extends Component {
   render() {
@@ -23,4 +25,8 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps, null)(BestiesList);
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ addBestieById }, dispatch);
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(BestiesList);
