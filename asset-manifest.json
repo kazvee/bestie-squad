@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bestie-squad/static/css/main.dc30b6e7.css",
+    "main.css": "/bestie-squad/static/css/main.eee2988b.css",
     "main.js": "/bestie-squad/static/js/main.37c9a49f.js",
     "static/media/background.jpg": "/bestie-squad/static/media/background.4ef9fd3e5f2d8519fdf5.jpg",
     "index.html": "/bestie-squad/index.html",
-    "main.dc30b6e7.css.map": "/bestie-squad/static/css/main.dc30b6e7.css.map",
+    "main.eee2988b.css.map": "/bestie-squad/static/css/main.eee2988b.css.map",
     "main.37c9a49f.js.map": "/bestie-squad/static/js/main.37c9a49f.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc30b6e7.css",
+    "static/css/main.eee2988b.css",
     "static/js/main.37c9a49f.js"
   ]
 }
